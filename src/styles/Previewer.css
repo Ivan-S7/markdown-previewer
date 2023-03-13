@@ -1,0 +1,58 @@
+/* -----------------------------------------General------------------------------------------------------ */
+.previewer{
+    background-color: rgb(182, 171, 231);
+    margin-top: 50px;
+    width: 50%;
+    padding: 0;
+    min-height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#previewer-component{
+    padding: 0;
+    width: 60%;
+}
+
+/* ------------------------------------------------expanded--------------------------------------------- */
+
+.expanded{
+    height: 100vh;
+}
+
+
+/* -----------------------------------------------previewer body------------------------------------------- */
+
+.previewer-body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex: 1;
+    background-color: rgb(182, 171, 231);  
+}
+/* --------------------------------------------Head------------------------------------------------------- */
+
+.previewer-head{
+    background-color: rgb(72, 72, 240);
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    /* ---------- */
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding: auto 10px;
+    
+    
+    
+
+    
+    
+}
+
+.FontAwesomeIcon{
+    font-size: 20px;
+    margin: auto 10px;
+}
